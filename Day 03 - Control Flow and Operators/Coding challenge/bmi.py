@@ -3,6 +3,8 @@ weight = int(input("Enter your weight in Kilos: "))
 
 bmi = round(weight/(height*height), 3)
 
+print(f"The height entered is {height} and the weight entered is {weight}")
+
 if bmi < 18.5:
     print(f"Your BMI value is {bmi} and you are underweight")
 elif bmi < 25:
